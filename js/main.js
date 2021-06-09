@@ -110,7 +110,7 @@
     // 最後の問題だったら点数を表示して、それ以外だったら次の問題に進む
     if (currentNum === quizSet.length - 1) {
       // console.log(`てんすう：${score} / ${quizSet.length}`);
-      scoreLabel.textContent =  (`てんすう：${score} / ${quizSet.length}`);
+      scoreLabel.textContent =  (`${quizSet.length}もんちゅう${score} もんせいかい `);
       if (score == 3) {
         soundFanfare.load();
         soundFanfare.play();
